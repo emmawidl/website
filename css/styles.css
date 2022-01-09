@@ -123,13 +123,14 @@ hr {
 }
 
 .credit {
-    position: fixed;
+    flex-shrink: 0;
     height: 20px;
     bottom: 0;
     left: 0;
     right: 0;
     margin-bottom: 0px;
-    font-size: 0.75em;
+    color: #357376;
+    font-size: 0.8em;
 }
 
 /************ Container Edits ************/
@@ -174,9 +175,10 @@ hr {
     text-align: center;
  }
 
- .attribution {
+ .attribution-text {
      font-size: small;
      opacity: 20%;
+     color: black;
  }
 
  .attribution a {
@@ -184,9 +186,6 @@ hr {
      color: black;
  }
 
- .credit {
-     color: #357376;
- }
  /********** ID SELECTORS ************/
 
  /********** NAV BAR SELECTORS ************/
