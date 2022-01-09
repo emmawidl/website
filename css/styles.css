@@ -1,0 +1,311 @@
+body {
+    background-color: #6BA8A9;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-top: 0 auto 0 auto;
+    font-family: 'Coustard', serif;
+    line-height: 0;
+    color: #163a3b;
+    padding-top: 110px;
+}
+
+h2 {
+    font-size: 25px; 
+    font-weight: normal;
+    color: #1D4D4F;
+}
+
+h3 {
+    color: #357376;
+}
+
+hr {
+    border-color: #6BA8A9;
+    border-style: none;
+    border-top-style: solid;
+    border-width: 100%;
+    width: 100%;
+}
+
+.intro {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.instagram-icon {
+    width: 3%;
+    padding: 10px;
+    opacity: 80%;
+}
+
+.instagram-icon:hover {
+    width: 3.1%;
+}
+
+.twitter-icon {
+    width: 3%;
+    padding: 10px;
+    opacity: 80%;
+}
+
+.twitter-icon:hover {
+    width: 3.1%;
+}
+
+.linkedin-icon {
+    width: 3%;
+    padding: 10px;
+    opacity: 80%;
+}
+
+.linkedin-icon:hover {
+    width: 3.1%;
+}
+
+.aboutme {
+    line-height: 2;
+}
+.skills {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.skills h2 {
+    font-size: 2em;
+}
+
+.profile h2 {
+    font-size: 2em;
+}
+
+.skill-row {
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.coding {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.office-application {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.portfolio-header h1 {
+    line-height: 1;
+}
+
+.contact h2 {
+    font-size: 2em;
+}
+
+.contact {
+    padding-bottom: 150px;
+}
+
+/************ Container Edits ************/
+.top-container {
+    margin-top: auto;
+    margin-bottom: 0;
+    color: black;
+    padding-bottom: 100px;
+}
+
+.middle-container {
+    height: auto;
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 60px;
+}
+
+.bottom-container {
+    height: auto;
+    width: auto;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    height: auto;
+    width: auto;
+    padding-top: 5px;
+}
+
+.profile {
+    display: block;
+    margin: 0 20%;
+    padding-bottom: 15px;
+    text-align: center;
+ }
+
+ .profile-image {
+    display: block;
+    margin: 0 20%;
+    padding-bottom: 15px;
+    text-align: center;
+ }
+
+ .attribution {
+     font-size: small;
+     opacity: 20%;
+ }
+
+ .attribution a {
+     text-decoration: none;
+     color: black;
+ }
+
+ .credit {
+     color: #357376;
+ }
+ /********** ID SELECTORS ************/
+
+ /********** NAV BAR SELECTORS ************/
+.navigation {
+    align-items: flex-start;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    list-style-type: none;
+    overflow: hidden;
+    text-align: left;
+}
+
+.navigation li {
+    float: left;
+}
+.navigation li a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    color: #1D4D4F;
+}
+
+/* Change color of links on hover */
+.navigation a:hover {
+    color: #102b2c;
+    font-size: 1.03em;
+}
+
+ /********** WORK EXPERIENCE ************/
+
+ .experience {
+     text-align: center;
+     width: 70%;
+     margin: 0 auto;
+ }
+
+ .experience h2 {
+     font-size: 2em;
+ }
+
+ .experience-row {
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 2;
+ }
+
+ .ftl {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+ }
+ .cluster-reply {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.rockstone {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sassyclassy {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+/**************** EDUCATION *************/
+.education {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;  
+}
+
+.education h2 {
+    font-size: 2em;
+}
+
+.education-row {
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 2;
+ }
+
+.lmu {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gbcm {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+.datacamp {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+.nvidia {
+    width: 15%;
+    float: right;
+    margin-left: 30px;
+}
+
+  /********** SAY HI BUTTON ************/
+ .btn {
+    background: #7ebfbf;
+    background-image: -webkit-linear-gradient(top, #7ebfbf, #50888a);
+    background-image: -moz-linear-gradient(top, #7ebfbf, #50888a);
+    background-image: -ms-linear-gradient(top, #7ebfbf, #50888a);
+    background-image: -o-linear-gradient(top, #7ebfbf, #50888a);
+    background-image: linear-gradient(to bottom, #7ebfbf, #50888a);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #65cfbf;
+    background-image: -webkit-linear-gradient(top, #65cfbf, #5ebdad);
+    background-image: -moz-linear-gradient(top, #65cfbf, #5ebdad);
+    background-image: -ms-linear-gradient(top, #65cfbf, #5ebdad);
+    background-image: -o-linear-gradient(top, #65cfbf, #5ebdad);
+    background-image: linear-gradient(to bottom, #65cfbf, #5ebdad);
+    text-decoration: none;
+  }
