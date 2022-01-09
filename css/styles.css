@@ -156,12 +156,6 @@ hr {
     padding-bottom: 15px;
 }
 
-.footer {
-    height: auto;
-    width: auto;
-    padding-top: 5px;
-}
-
 .profile {
     display: block;
     margin: 0 20%;
@@ -223,6 +217,7 @@ hr {
      text-align: center;
      width: 70%;
      margin: 0 auto;
+     padding-bottom: 15px;
  }
 
  .experience h2 {
