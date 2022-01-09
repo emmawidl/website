@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -113,13 +114,22 @@ hr {
     width: 70%;
     margin: 0 auto 0 auto;
 }
-
 .contact h2 {
     font-size: 2em;
 }
 
 .contact {
     padding-bottom: 150px;
+}
+
+.credit {
+    position: fixed;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+    font-size: 0.75em;
 }
 
 /************ Container Edits ************/
