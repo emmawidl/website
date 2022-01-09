@@ -104,9 +104,14 @@ hr {
     margin-left: 30px;
 }
 
+.portfolio-header {
+    padding-bottom: 150px;
+}
+
 .portfolio-header h1 {
     line-height: 1;
     width: 70%;
+    margin: 0 auto;
 }
 
 .contact h2 {
