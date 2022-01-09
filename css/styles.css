@@ -5,6 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     margin-bottom: 20px;
+    flex: 1 0 auto;
 }
 
 h1 {
